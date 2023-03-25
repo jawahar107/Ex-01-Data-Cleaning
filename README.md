@@ -25,6 +25,8 @@ Uploaded =files.upload()
 import pandas as pd
 df = pd.read_csv("credit_data_1.csv")
 df
+
+
 #Duplication:
 import pandas as pd
 import numpy as np
@@ -32,10 +34,16 @@ import seaborn as sns
 ~df.duplicated()
 df=df[~df.duplicated()]
 df
+
+
 #Info:
 df.info()
+
+
 #Number of null values:
 df.isnull().sum()
+
+
 #After cleaning the given values:
 df.isnull().sum()
 
